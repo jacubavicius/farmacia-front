@@ -14,7 +14,7 @@ function Navbar() {
             <div className="flex items-center">
                 <nav className="font-sen text-gray-800 dark:text-white uppercase font-bold text-lg lg:flex items-center hidden">
                     <Link to="/home" className="py-2 px-6 flex hover:text-blue-800">Home</Link>
-                    <a href="#" className="py-2 px-6 flex hover:text-blue-800">Produtos</a>
+                    <Link to="/produtos" className="py-2 px-6 flex hover:text-blue-800">Produtos</Link>
                     <Link to="/categorias" className="py-2 px-6 flex hover:text-blue-800">Categorias</Link>
                 </nav>               
             </div>

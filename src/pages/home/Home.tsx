@@ -1,5 +1,6 @@
 import React from "react";
 import home from '../../assets/home.png';
+import { Link } from "react-router-dom";
 
 
 function Home() {
@@ -20,12 +21,12 @@ function Home() {
                 Explore nossas soluções para uma vida saudável.
             </p>
             <div className="flex mt-8">
-              <a
-                href="#"
+              <Link
+                to="/produtos"
                 className="uppercase py-2 px-4 rounded-lg bg-blue-800 border-2 border-transparent text-white text-md mr-4 hover:bg-blue-400"
               >
                 Produtos
-              </a>
+              </Link>
             </div>
           </div>
           <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
